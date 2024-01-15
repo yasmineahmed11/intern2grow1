@@ -1,0 +1,239 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loginmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 9px;
+  display: flex;
+  position: relative;
+}
+.loginbox {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.image {
+  flex: 1;
+  order: 1;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.image img {
+  width: 95%;
+  height: auto;
+  display: block;
+}
+
+.textimage {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fff;
+  
+  width: 80%;
+  margin-right: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.textimage h2 {
+  font-size: 1.3em;
+  color: white;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.textimage p {
+  font-size: 0.9em;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.loginform {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #7f5111b7;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+/* ... (previous CSS code) ... */
+
+.or-line {
+  position: relative;
+  margin: 20px 10px 10px 10px; /* Adjust margin as needed */
+}
+
+.or-line::before,
+.or-line::after {
+  content: "";
+  display: block;
+  height: 1px; /* Adjust the thickness of the line */
+  background-color: #000; /* Black color */
+  position: absolute;
+  top: 50%;
+  width: 40%; /* Adjust the length of the line */
+}
+
+.or-line::before {
+  left: 0;
+  margin-top: auto;
+}
+
+.or-line::after {
+  right: 0;
+}
+
+.or-word {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff; /* Background color behind the "or" word */
+  padding: 10 10px; /* Adjust padding as needed */
+}
+
+/* ... (remaining CSS code) ... */
+
+button:hover {
+  background-color: #5e4c0594;
+}
+.loginform label,
+.loginform input,
+.loginform button,
+.loginform .or,
+.loginform .social-button,
+.loginform .signup-link {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  
+}
+.signup-link {
+  text-align: justify;
+  
+}
+
+.signup-link a {
+  color: black;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.social-button {
+  border: 1px solid #000000;
+}
+
+.social-button-box {
+  width: 100%;
+  margin-bottom: 10px;
+   /* Add margin between social button boxes */
+}
+
+.social-button {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff; /* Google blue color, adjust as needed */
+}
+.social-button i {
+  margin-right: 10px;
+
+}
+.social-button .fa-twitter{
+  color: blue;
+  background: rgb(255, 255, 255);
+}
+.social-button .fa-google{
+  color: red;
+}
+.social-button:hover {
+  background-color: #c8c9cb; /* Darker blue on hover, adjust as needed */
+}
+.info{
+  margin: 0px 0px 10px 0px;
+  padding-top: 5%;
+}
+.forgot-password {
+  text-align: right;
+  margin-top: 2px;
+}
+.forgot-password a{
+  color: black;
+  font-size: 0.9em;
+}
+#hidepassword {
+  text-align: right;
+  margin-left: 250px;
+  right: 90px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+}
+.passwordcontainer{
+  position: relative;
+}
+.passinput {
+  
+}
+#pa {
+  position: relative;
+  margin: 0.1px 0.1px 0px;
+}
+#h{
+  text-align: left;
+  padding-bottom: 0.9em;
+}
